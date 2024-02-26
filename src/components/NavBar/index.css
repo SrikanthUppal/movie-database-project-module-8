@@ -1,0 +1,78 @@
+.nav-bar {
+  width: 100%;
+  background-color: #011d2b;
+  height: 80px;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.logo-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fd2568;
+  font-weight: 600;
+}
+@media (min-width: 992px) {
+  .logo-name {
+    font-size: 38px;
+  }
+}
+.tabs-list {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin-bottom: 8px;
+}
+.tab-item {
+  margin-left: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: gold;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+}
+.input {
+  margin-left: 20px;
+  width: 170px;
+  height: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  padding-left: 6px;
+  outline: none;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 600;
+  border: none;
+}
+.search-button {
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 3px;
+  height: 24px;
+  padding: 4px;
+  background-color: skyblue;
+}
+.search-container {
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  .search-button {
+    height: 30px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+  .tab-item {
+    margin-left: 42px;
+  }
+  .input {
+    width: 200px;
+    height: 30px;
+    margin-left: 42px;
+  }
+}

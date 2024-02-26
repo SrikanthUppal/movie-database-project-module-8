@@ -1,0 +1,13 @@
+.loading-view {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movies-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
