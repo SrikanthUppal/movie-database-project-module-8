@@ -38,6 +38,9 @@
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "lint-staged": {
     "*.js": [
       "npm run lint:fix"
